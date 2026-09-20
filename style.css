@@ -12,14 +12,17 @@ body{
 a{
     text-decoration: none;
     display: inline-block;
+    color: #a63d2f;
 }
 
-.content-box{
-    margin: 50px 0 0 0 ;
+.title-box{
+    background-color: #dfba64;
+    padding: 20px 50px;
 }
 
 .title,
-.recipe-name{
+.recipe-name,
+.back-link{
     color: #a63d2f;
 }
 
@@ -55,4 +58,34 @@ img.recipe-image{
 
 h3.recipe-name{
     font-size: 50px;
+}
+
+.dish-box{
+    width: 800px;
+    margin: 50px auto;
+}
+
+.dish-box-image{
+    text-align: center;
+}
+
+.dish-image{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.dish-name{
+    margin: 20px 0 10px 0;
+}
+
+.dish-disc,
+.dish-subtitle,
+ul,
+ol{
+    margin: 0 0 20px 0;
+}
+
+.dish-subtitle{
+    font-size: 25px;
 }
